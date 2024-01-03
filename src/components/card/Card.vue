@@ -38,12 +38,14 @@ import MusicIcon from "@/assets/images/MusicIcon.vue";
 .card {
   max-width: 450px;
   width: 100%;
-  height: 650px;
+  min-height: 700px;
+  height: 100%;
   overflow: hidden;
   border-radius: 15px;
   background: var(--cardBgColor);
   display: flex;
   flex-direction: column;
+  box-shadow: 4px 9px 39px -22px var(--secondaryColor);
 
   &__img {
     width: 100%;
