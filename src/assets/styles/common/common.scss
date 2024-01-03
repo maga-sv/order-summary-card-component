@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'RedHatDisplay';
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+p {
+    font-weight: 500;
+}
+
+span {
+    font-weight: 500;
+}
+
+body {
+    background: var(--primaryColor);
+}
+
+:root {
+    --primaryColor: #e0e8ff;
+    --secondaryColor: hsl(245, 75%, 52%);
+
+    --accentColor: hsl(225, 100%, 98%);
+    --secAccentColor: #7280a7;
+    --darkColor: hsl(223, 47%, 23%);
+    --cardBgColor: #fff;
+}

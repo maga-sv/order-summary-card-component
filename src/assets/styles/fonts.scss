@@ -1,0 +1,9 @@
+$RedHatDisplay: (500, "Medium"), (700, "Bold"), (900, "Black");
+
+@each $weight, $name in $RedHatDisplay {
+    @font-face {
+        src: url(../fonts/Red_Hat_Display/static/RedHatDisplay-#{$name}.ttf);
+        font-weight: $weight;
+        font-family: "RedHatDisplay";
+    }
+}
